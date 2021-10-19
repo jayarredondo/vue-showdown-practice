@@ -42,23 +42,23 @@
         isBoolean([1, 2])           // false
 
 1.  Define a function named `isString` that takes in a value as an input and returns a boolean if the input provided is a string or not. Numeric strings will count as strings and should return true.
-        isString("Hello")           // true
-        isString("Codeup")          // true
-        isString("123")             // true
-        isString(4)                 // false
-        isString(true)              // false
-        isString([1, 2, 3])         // false
-        isString()                  // false
-        isString(null)              // false
+    isString("Hello") // true
+    isString("Codeup") // true
+    isString("123") // true
+    isString(4) // false
+    isString(true) // false
+    isString([1, 2, 3]) // false
+    isString() // false
+    isString(null) // false
 1.  Define a function named `isNotString` that accepts an input and returns `true` or `false` based on whether an input is not a string. Numeric strings will count as strings and should return `false`.
-        isNotString(4)                 // true
-        isNotString(true)              // true
-        isNotString([1, 2, 3])         // true
-        isNotString()                  // true
-        isNotString(null)              // true
-        isNotString("Hello")           // false
-        isNotString("Codeup")          // false
-        isNotString("123")             // false
+    isNotString(4) // true
+    isNotString(true) // true
+    isNotString([1, 2, 3]) // true
+    isNotString() // true
+    isNotString(null) // true
+    isNotString("Hello") // false
+    isNotString("Codeup") // false
+    isNotString("123") // false
 1.  Define a function named `isEmptyString` that will return `true` when passed an argument with the value of "", i.e. an empty string. All other arguments should return false.
 
         isEmptyString("")                // true
@@ -108,15 +108,15 @@
         isPositive(true)            // false
 
 1.  Define a function named `isZero` that will return `true` when passed an argument of the numeric value `0`, and return `false` for all other arguments.
-        isZero(0)                 // true
-        isZero("0")               // true
-        isZero("Hello")           // false
-        isZero("Codeup")          // false
-        isZero("123")             // false
-        isZero(true)              // false
-        isZero([1, 2, 3])         // false
-        isZero(null)              // false
-        isZero()                  // false
+    isZero(0) // true
+    isZero("0") // true
+    isZero("Hello") // false
+    isZero("Codeup") // false
+    isZero("123") // false
+    isZero(true) // false
+    isZero([1, 2, 3]) // false
+    isZero(null) // false
+    isZero() // false
 
 1.  Define a function named `isArray` that takes in an input and returns a boolean whether or not that input is an array or not.
 
@@ -131,14 +131,14 @@
         isArray()                   // false
 
 1.  Define a function named `upperCase` that takes in a single input. If the input is not a string, return `false`. If the input is a non-numeric string, then return it with all the letters capitalized.
-        upperCase("Codeup")         // "CODEUP"
-        upperCase("javascript")     // "JAVASCRIPT"
-        uppercase("45")             // "45"
-        upperCase(23)               // false
-        upperCase(null)             // false
-        upperCase([1, 2, 3])        // false
-        upperCase(true)             // false
-        upperCase()                 // false
+    upperCase("Codeup") // "CODEUP"
+    upperCase("javascript") // "JAVASCRIPT"
+    uppercase("45") // "45"
+    upperCase(23) // false
+    upperCase(null) // false
+    upperCase([1, 2, 3]) // false
+    upperCase(true) // false
+    upperCase() // false
 
 ## Testing your work w/ automated tests
 
@@ -160,13 +160,13 @@ The automated tests provide immediate feedback as to whether or not your solutio
 
 - No credit will be given for commented out code.
 
-- There are ten questions on the test. Below is an example of how a question appears on the test.<br><kbd><img src="/images/test-question.png" ></kbd>
+- There are ten questions on the test. Below is an example of how a question appears on the test.
 
 - Each question counts for 10 points of the final grade.
 
-- For a question to be counted as correct all specs must pass for the question.<br><kbd><img src="/images/correct-answer.png" ></kbd>
+- For a question to be counted as correct all specs must pass for the question.
 
-- If any of the specs are red for the question then the entire question will be considered incorrect.<br><kbd><img src="/images/incorrect-answer.png" ></kbd>
+- If any of the specs are red for the question then the entire question will be considered incorrect.
 
 ## Hints
 
